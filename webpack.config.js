@@ -14,7 +14,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // Extracts the compiled CSS from the SASS files defined in the entry
       {
         test: /\.scss$/,
         use: [
