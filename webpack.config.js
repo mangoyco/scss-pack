@@ -4,6 +4,7 @@ const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 const path = require("path")
 
 module.exports = {
+  mode: "production",
   entry: {
     common: "./scss/common.scss",
     home: "./scss/home.scss"
